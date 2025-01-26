@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Mathematics of Finite Element Methods"
+  author: "Vikas Sharma"
+  date: "1/26/2025"
+  reader-mode: true
+  chapters:
+    - index.md
+    - intro.md
+    - sets.md
+    - topological-spaces.md
+    - dense-set.md
+    - metric-spaces.md
+    - vector-spaces.md
+    - innerproduct-spaces.md
+    - summary.md
+    - references.md
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  # pdf:
+  #   documentclass: scrreprt
+
+
+
