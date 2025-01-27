@@ -6,14 +6,12 @@ An element of a vector space is called a vector.
 
 A vector space is associated with a field, which can be Real ($R$) or complex ($C$).
 
-:::info
 A vector space is close under addition `(+)` and multiplication `(*)` operation. It means that:
 
 - In a vector space, if we add two elements, then we get another element of that vector space.
 - If we multiply a vector with a scalar (an element of field), then the resultant vector remains in the vector space.
-:::
 
-:::note
+:::{.callout-note appearance="simple"}
 Every vector-space contains a zero vector. This is because, if we subtract a vector from itself we get zero vector. We also get zero vector by multiplying a vector with zero. Further, if we add  zero vector to any vector, the resultant vector is same as the original vector.
 :::
 
@@ -36,15 +34,12 @@ $$
 
 ## Finite-dimensional vector space
 
-:::info Definition: Finite Dimensional Vector Space
 A vector space $V$ is finite-dimensional if every linearly independent set is a finite set. In other words, for all sets $E \subseteq V$ such that:
 $$
 \sum_{i=1}^{N}a_{i}v_{i}=0\implies a_{1}=a_{2}=\cdots=a_{N}=0,\forall v_{1},\cdots,v_{N}\in E
 $$
 
 $E$ has a finite cardinality.
-
-:::
 
 Some examples of finite-dimensional vector spaces:
 

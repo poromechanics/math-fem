@@ -9,7 +9,7 @@ book:
   reader-mode: true
   search: true
   repo-url: https://github.com/poromechanics/math-fem/
-  site-url: https://poromechanics.github.io/spectral-fem
+  site-url: https://poromechanics.github.io/math-fem
   repo-actions: [edit, issue]
   downloads: [pdf,epub]
   sharing: [twitter, linkedin]
