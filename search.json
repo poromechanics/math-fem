@@ -1,0 +1,592 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mathematics of Finite Element Methods",
+    "section": "",
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Mathematics of Finite Element Methods",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nnone",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#table-of-contents",
+    "href": "index.html#table-of-contents",
+    "title": "Mathematics of Finite Element Methods",
+    "section": "Table of contents",
+    "text": "Table of contents",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "sets.html",
+    "href": "sets.html",
+    "title": "2  Sets",
+    "section": "",
+    "text": "2.1 Cartesian product\nSets are primitive object in mathematics. It denotes the collection of elements, and it has no structure on it. We denote by X the set which is collection of elements \\(a, b, c, \\cdots\\) by\n\\[\nX = \\{ a, b, c, \\cdots\\}\n\\]\nIf an element \\(a\\) is in X, we denote it by \\(a \\in X\\). If \\(b\\) is not in X, then we denote it by \\(b \\notin X\\).\nLet \\(X\\) and \\(Y\\) be two sets. Then Cartesian product of X and Y is a set of ordered pairs of elements from X and Y:\n\\[\nX \\times Y = {(x_i, y_i), x_i \\in X, y_i \\in Y, \\text{ for }, i=1,2,\\cdots}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sets</span>"
+    ]
+  },
+  {
+    "objectID": "sets.html#maps",
+    "href": "sets.html#maps",
+    "title": "2  Sets",
+    "section": "2.2 Maps",
+    "text": "2.2 Maps\n\\(f\\) is a map from X to Y, which is denoted by \\(f: X \\longmapsto Y\\) such that\n\\[\nx_{i} \\in X: \\exists y_{i} \\in Y: y_{i} = f(x_{i})\n\\]\nSo we say:\n\\[\nf: x_{i} \\in X \\longmapsto f(x_{i}) \\in Y\n\\]\n\n\\(f(x_{i})\\) is called the image of \\(x_{i}\\) in Y with respect to the mapping \\(f\\).\n\\(X\\) is called the domain of \\(f\\).\n\\(Y\\) is called the co-domain of \\(f\\).\nThe set \\(\\{y_{i}: y_{i}=f(x_{i}), \\forall x_{i} \\in X\\}\\) is called the range of \\(f\\).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sets</span>"
+    ]
+  },
+  {
+    "objectID": "sets.html#injective-maps",
+    "href": "sets.html#injective-maps",
+    "title": "2  Sets",
+    "section": "2.3 Injective maps",
+    "text": "2.3 Injective maps\nA map \\(f:X \\mapsto Y\\) is called injective if each element of \\(X\\) maps to a unique element of \\(Y\\). Injective maps are called one-to-one map. In other words, range of X under the map \\(f\\) is contained in Y.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sets</span>"
+    ]
+  },
+  {
+    "objectID": "sets.html#surjective-maps",
+    "href": "sets.html#surjective-maps",
+    "title": "2  Sets",
+    "section": "2.4 Surjective maps",
+    "text": "2.4 Surjective maps\nA map \\(f\\) is called surjective if every element of \\(X\\) maps to at least one element in \\(Y\\). In other words, there should be no \\(y_{i} \\in Y\\), such that, \\(y_{i} \\ne f(x_{i})\\). In other words, range of X under the map \\(f\\) is same as Y.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sets</span>"
+    ]
+  },
+  {
+    "objectID": "sets.html#bijective-maps",
+    "href": "sets.html#bijective-maps",
+    "title": "2  Sets",
+    "section": "2.5 Bijective maps",
+    "text": "2.5 Bijective maps\nA map \\(f\\) is Bijective if it is both surjective and injective. In this case, we say \\(X\\) and \\(Y\\) are isomorphic under \\(f\\), and \\(f\\) is called isomorphism.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sets</span>"
+    ]
+  },
+  {
+    "objectID": "topological-spaces.html",
+    "href": "topological-spaces.html",
+    "title": "3  Topological-Spaces",
+    "section": "",
+    "text": "3.1 Example\nLet us consider a set \\(X\\). Now lets construct another set \\(\\tau\\), which is a collection of subsets of X. That is, every element of \\(\\tau\\) is a subset of \\(X\\).\nNow lets give following properties to \\(\\tau\\):\nIf \\(\\tau\\) has the above properties then we say that \\(\\tau\\) defines a topology in \\(X\\).\nFor every pair \\((x_1, x_2)\\) of distinct points \\(x_1, x_2, \\in X\\), there exist disjoint open sets \\(G_{1}\\) \\(G_2\\) such that \\(x_1 \\in G_1\\) and \\(x_2 \\in G_2\\).\nA circle is a topological space which is denoted by \\(S^{1}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Topological-Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "topological-spaces.html#neighborhood",
+    "href": "topological-spaces.html#neighborhood",
+    "title": "3  Topological-Spaces",
+    "section": "3.2 Neighborhood",
+    "text": "3.2 Neighborhood\nA neighborhood of point \\(x \\in X\\) is a set containing an open-set which contains x.\nA neighborhood of the subset M of X is a set which neighborhood of every point of M.\nA point x of X is an accumulation point or limit point of a subset M of X if every neighborhood of x contains at least one point \\(m \\in M\\) different from x.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Topological-Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "topological-spaces.html#continuity",
+    "href": "topological-spaces.html#continuity",
+    "title": "3  Topological-Spaces",
+    "section": "3.3 Continuity",
+    "text": "3.3 Continuity\nConsider two topological spaces \\((X, \\tau_{X})\\) and \\((Y, \\tau_{Y})\\), and map \\(f:X \\mapsto Y\\).\n\\(f\\) is continuous if \\(\\forall y \\in \\tau_{Y}\\): preimage of \\(y\\) under map f belongs to \\(\\tau_{X}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Topological-Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "dense-set.html",
+    "href": "dense-set.html",
+    "title": "4  Dense set",
+    "section": "",
+    "text": "4.1 Definition\nIn topology and related areas of mathematics, a subset A of a topological space  X is said to be dense in X if every point of X either belongs to A or else is arbitrarily “close” to a member of A.\nFor example, the rational numbers are a dense subset of the real numbers, because every real number either is a rational number or has a rational number arbitrarily close to it.\nFormally, A is dense in X if the smallest closed subset of X which contains A is X itself.\nA subset A of a topological space X is said to be a **dense subset of X if any of the following equivalent conditions are satisfied:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Dense set</span>"
+    ]
+  },
+  {
+    "objectID": "dense-set.html#definition",
+    "href": "dense-set.html#definition",
+    "title": "4  Dense set",
+    "section": "",
+    "text": "The smallest closed subset X containing A is X itself.\nThe closure A in X is equal to X.\nThe interior of complement of A is empty.\nEvery point in X either belongs to A or is a limit point of A.\nFor every \\(x\\in X\\), every neighborhood U of x intersects A.\nA intersects every non-empty open subset of X.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Dense set</span>"
+    ]
+  },
+  {
+    "objectID": "metric-spaces.html",
+    "href": "metric-spaces.html",
+    "title": "5  Metric spaces",
+    "section": "",
+    "text": "5.1 Open set\nMetric spaces are topological spaces. They have additional structure defined on them which is induced due to the metric. The notion of metric allows us to define distances between two points of topological spaces.\nThe metric \\(g\\) on X is a map from \\(X \\times X\\) to real number \\(\\mathbb{R}\\):\n\\[\ng: (x,y) \\in X \\times X \\mapsto g(x,y) \\in \\mathbb{R}\n\\]\nwhich satisfies the following axioms:\nWe can use metric to define the open balls.\n\\[\nB_{r}(x) = \\{ y \\vert g(x,y) &lt; r, \\forall y \\in X\\}\n\\]\nA point \\(x_{0} \\in X\\) is called the accumulation point of a subset \\(M\\) iff, for every \\(\\varepsilon &gt; 0\\), there exists at least one point \\(y \\ne x_{0}\\) of M such that \\(g(x_{0}, y) &lt; \\varepsilon\\).\nA subset \\(M\\) of X is open iff, for every \\(m \\in M\\), there exists a ball \\(B_{r}(m)\\) which is completely contained in M.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Metric spaces</span>"
+    ]
+  },
+  {
+    "objectID": "metric-spaces.html#close-set",
+    "href": "metric-spaces.html#close-set",
+    "title": "5  Metric spaces",
+    "section": "5.2 Close set",
+    "text": "5.2 Close set\nA subset \\(M\\) of X is close if it not open.\nIn otherwords if the subset M contains all its accumulation points then subset M is close.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Metric spaces</span>"
+    ]
+  },
+  {
+    "objectID": "metric-spaces.html#continuous-mapping",
+    "href": "metric-spaces.html#continuous-mapping",
+    "title": "5  Metric spaces",
+    "section": "5.3 Continuous mapping",
+    "text": "5.3 Continuous mapping\nLet \\(X\\) and \\(Y\\) be topological spaces. Let \\(f:X \\mapsto Y\\) be a mapping defined on these spaces.\nThen, \\(f\\) is called continuous at a point \\(x_{0} \\in X\\) if for every neighborhood U of \\(f(x_{0})\\) there exists a neighborhood V of \\(x_{0}\\) such that image of V, that is, \\(f(V) \\subseteqq U\\).\nThe mapping f is said to be continuous if it is continuous at every point of its domain \\(D(f) = X\\).\nThe mapping \\(f\\) is continuous iff the inverse image under \\(f\\) of every open set of Y is an open set of X.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Metric spaces</span>"
+    ]
+  },
+  {
+    "objectID": "metric-spaces.html#compactness",
+    "href": "metric-spaces.html#compactness",
+    "title": "5  Metric spaces",
+    "section": "5.4 Compactness",
+    "text": "5.4 Compactness\nA system of sets \\(G_{\\alpha},\\alpha \\in A\\), is called a covering of the set X if X is contained as a subset of the union \\(\\bigcup_{\\alpha \\in A}G_{\\alpha}\\).\nA subset M of a topological space X is called compact if every system of open sets of X which covers M contains a finite subsystem also covering M.\nCompact subsets of a topological space are necessarily closed.\nA closed subset \\(M_1\\) of a compact set M of a topological space X is compact.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Metric spaces</span>"
+    ]
+  },
+  {
+    "objectID": "vector-spaces.html",
+    "href": "vector-spaces.html",
+    "title": "6  Vector Spaces",
+    "section": "",
+    "text": "6.1 Mathematical definition\nVector spaces are also known as linear space.\nAn element of a vector space is called a vector.\nA vector space is associated with a field, which can be Real (\\(R\\)) or complex (\\(C\\)).\nA vector space is close under addition (+) and multiplication (*) operation. It means that:\nLet \\(V\\) be a vector space defined over the field (\\(R\\) or \\(C\\)), then \\(V\\) satisfies the following axioms:\nIn this way:\n\\[\n+: (x,y) \\in V \\times V \\rightarrow x+y \\in V\n\\]\n\\[\n*: (\\alpha,x) \\in R \\times V \\rightarrow \\alpha* x \\in V\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Vector Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "vector-spaces.html#mathematical-definition",
+    "href": "vector-spaces.html#mathematical-definition",
+    "title": "6  Vector Spaces",
+    "section": "",
+    "text": "if \\(x, y \\in V\\) and \\(\\alpha, \\beta \\in R\\), then \\(\\alpha x + \\beta y \\in V\\).\nif \\(x \\in V\\) and \\(\\alpha \\in V\\), then \\(\\alpha * x \\in V\\).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Vector Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "vector-spaces.html#finite-dimensional-vector-space",
+    "href": "vector-spaces.html#finite-dimensional-vector-space",
+    "title": "6  Vector Spaces",
+    "section": "6.2 Finite-dimensional vector space",
+    "text": "6.2 Finite-dimensional vector space\nA vector space \\(V\\) is finite-dimensional if every linearly independent set is a finite set. In other words, for all sets \\(E \\subseteq V\\) such that: \\[\n\\sum_{i=1}^{N}a_{i}v_{i}=0\\implies a_{1}=a_{2}=\\cdots=a_{N}=0,\\forall v_{1},\\cdots,v_{N}\\in E\n\\]\n\\(E\\) has a finite cardinality.\nSome examples of finite-dimensional vector spaces:\n\n\\(R^{2}\\)\n\\(R^{n}\\)\n\\(C^{n}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Vector Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "vector-spaces.html#infinite-dimensional-vector-space",
+    "href": "vector-spaces.html#infinite-dimensional-vector-space",
+    "title": "6  Vector Spaces",
+    "section": "6.3 Infinite-dimensional vector space",
+    "text": "6.3 Infinite-dimensional vector space\nVector space \\(V\\) is infinite Dimensional if it is not finite Dimensional.\n\\(C([0,1])\\), the set of continuous function defined over \\([0,1]\\), is an infinite dimensional vector space. We can prove it by taking a subset \\(E\\) which is defined as\n\\[\nE := \\left\\{ x^{n}:n\\in N\\cup\\{0\\}\\right\\},\n\\]\nwhich is indeed an infinite dimensional set.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Vector Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "normed-spaces.html",
+    "href": "normed-spaces.html",
+    "title": "7  Normed spaces",
+    "section": "",
+    "text": "7.1 Norm\nIn metric spaces we have metric to measure the distance between two elements of a metric space. By using the metric we can study how close or far two elements are from each other.\nWe want to develop such concepts in vector space. Then, we can check closeness between two elements of a vector space.\nDefinition: Norm\nA mapping\n\\[\n\\Vert \\cdot  \\Vert : x \\in V \\longmapsto \\Vert x \\Vert \\in R^{+}\n\\]\nis called a norm on the vector space \\(V\\) iff\n(Definiteness)\n\\[\n\\Vert x \\Vert = 0 \\text{ iff } x=0\n\\]\n(Homogeneity)\n\\[\n\\Vert \\alpha x \\Vert = \\vert \\alpha \\vert \\Vert x \\Vert, \\quad  \\forall x \\in V, \\text{ and } \\alpha \\in R\n\\]\n(Triangle inequality)\n\\[\n\\Vert x + y \\Vert \\le \\Vert x \\Vert + \\Vert y \\Vert, \\forall x, y \\in V.\n\\]\nExample: The Euclidean norm on \\(R^{n}\\) or \\(C^{n}\\), given by\n\\[\n\\Vert x \\Vert_{2} := \\left( \\sum_{i=1}^{n} \\vert x_{i} \\vert ^{2} \\right)^{1/2}\n\\]\nis indeed a norm.\nFollowing is also a norm:\n\\[\n\\Vert x \\Vert_{\\infty} := \\max_{1\\le i \\le n} \\vert x_{i} \\vert\n\\]\nIn general, for \\(1 \\le p &lt; \\infty\\), following is also a norm:\n\\[\n\\Vert x \\Vert_{p} := \\left( \\sum_{i=1}^{n} \\vert x_{i} \\vert ^{p} \\right)^{1/p}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Normed spaces</span>"
+    ]
+  },
+  {
+    "objectID": "normed-spaces.html#seminorm",
+    "href": "normed-spaces.html#seminorm",
+    "title": "7  Normed spaces",
+    "section": "7.2 Seminorm",
+    "text": "7.2 Seminorm\nA seminorm is a mapping\n\\[\n\\vert \\cdot  \\vert : x \\in V \\longmapsto \\Vert x \\Vert \\in R^{+}\n\\]\nwhich satisfies the Homogeneity and Triangle inequality but not necessarily Definiteness property.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Normed spaces</span>"
+    ]
+  },
+  {
+    "objectID": "normed-spaces.html#definition",
+    "href": "normed-spaces.html#definition",
+    "title": "7  Normed spaces",
+    "section": "7.3 Definition",
+    "text": "7.3 Definition\nNormed space: A vector space \\(V\\) which is equipped with the norm \\(\\Vert \\cdot \\Vert_{V}\\) is called the normed space.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Normed spaces</span>"
+    ]
+  },
+  {
+    "objectID": "normed-spaces.html#metric-and-norm",
+    "href": "normed-spaces.html#metric-and-norm",
+    "title": "7  Normed spaces",
+    "section": "7.4 Metric and Norm",
+    "text": "7.4 Metric and Norm\nRecall that if \\(X\\) is metric space, then the metric \\(d\\) is a mapping:\n\\[\nd: (x,y) \\in X \\times X \\longmapsto R^{+},\n\\]\nwhich has following three conditions:\n\n(Identification) \\(d(x,y) =0\\) iff \\(x=y\\)\n(Symmetry) \\(d(x,y) = d(y,x)\\) for all \\(x,y \\in X\\)\n(Triangle inequality) \\(d(x,y)+d(y,z) \\ge d(x,z)\\) for all \\(x,y,z \\in X\\)\n\nIt is clear that norm induces a metric:\n\n\n\n\n\n\nNote\n\n\n\nMetric induce by Norm: Let \\(\\Vert \\cdot \\Vert\\) be a norm on a vector space V. Then,\n\\[\nd(x,y) = \\Vert y - x \\Vert, \\forall x,y \\in V\n\\]\ndefines a metric on \\(V\\).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Normed spaces</span>"
+    ]
+  },
+  {
+    "objectID": "normed-spaces.html#example-of-normed-space",
+    "href": "normed-spaces.html#example-of-normed-space",
+    "title": "7  Normed spaces",
+    "section": "7.5 Example of Normed space",
+    "text": "7.5 Example of Normed space\nLet \\(X\\) be a metric space. The vector space \\(C_{\\infty}(X)\\) is defined as:\n\\[\nC_{\\infty}(X):= \\left \\{  f: X \\rightarrow C: f \\text{ is Continuous and bounded}  \\right \\}\n\\]\nFor any metric space \\(X\\), we can define a norm on the vector space \\(C_{\\infty}\\) via\n\\[\n\\Vert v \\Vert_{\\infty} := \\sup_{x \\in X} \\vert v(x) \\vert\n\\]\nProof:\n\nDefiniteness: if \\(v=0\\), then \\(\\Vert v \\Vert_{\\infty}=0\\).\nHomogeneity:\n\n\\[\n\\begin{aligned}\\Vert\\alpha v\\Vert_{\\infty} & =\\sup_{x\\in X}\\vert\\alpha v(x)\\vert\\\\\n& =\\sup_{x\\in X}\\vert\\alpha\\vert\\vert v(x)\\vert\\\\\n& =\\vert\\alpha\\vert\\sup_{x\\in X}\\vert v(x)\\vert\\\\\n& =\\vert\\alpha\\vert\\Vert v\\Vert_{\\infty}\n\\end{aligned}\n\\]\n\nTriangle inequality:\n\n\\[\n\\begin{aligned}\\Vert v+w\\Vert_{\\infty} & =\\sup_{x\\in X}\\vert v(x)+w(x)\\vert\\\\\n& \\le\\sup_{x\\in X}\\left(\\vert v(x)\\vert+\\vert w(x)\\vert\\right)\\\\\n& =\\sup_{x\\in X}\\vert v(x)\\vert+\\sup_{x\\in X}\\vert w(x)\\vert\\\\\n& =\\Vert v(x)\\Vert_{\\infty}+\\Vert w(x)\\Vert_{\\infty}\n\\end{aligned}\n\\]\n\n7.5.1 Convergence of sequence\nNow that we have a norm on \\(C_{\\infty}(X)\\), we can talk about the convergence of sequences.\nConsider a sequence \\(\\{u_{n}\\}_{n=1}^{\\infty}\\) in \\(C_{\\infty}(X)\\). We say that the sequence converges to \\(u\\), that is, \\(u_{n} \\rightarrow u\\), in \\(C_{\\infty}(X)\\) if\n\\[\n\\Vert u_{n} - u \\Vert_{\\infty} = 0,\n\\]\nin other words,\n\\[\n\\forall\\varepsilon&gt;0,\\exists N\\in\\mathbb{N}:\\forall n\\ge N,\\forall x\\in X,\\vert u_{n}(x)-u(x)\\vert&lt;\\varepsilon,\n\\]\nwhich is the definition of uniform convergence on X.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Normed spaces</span>"
+    ]
+  },
+  {
+    "objectID": "normed-spaces.html#example-2",
+    "href": "normed-spaces.html#example-2",
+    "title": "7  Normed spaces",
+    "section": "7.6 Example 2",
+    "text": "7.6 Example 2\nLet us consider another example of Normed spaces. Consider a space of infinite sequences,\\(\\{ a_{i} \\}_{i=1}^{\\infty}\\), which will be designated by \\(l^{p}\\) space:\n\\[\nl^{p} := \\left \\{ \\{ a_{i} \\}_{i=1}^{\\infty}: \\Vert a \\Vert_{p} &lt; \\infty \\right \\},\n\\]\nwhere,\n\\[\n\\Vert a\\Vert_{p}=\\begin{cases}\n\\left(\\sum_{i=1}^{\\infty}\\vert a_{i}\\vert^{p}\\right)^{1/p} & 1\\le p&lt;\\infty\\\\\n\\sup_{1\\le i\\le\\infty}\\vert a_{i}\\vert & p=\\infty\n\\end{cases}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Normed spaces</span>"
+    ]
+  },
+  {
+    "objectID": "banach-spaces.html",
+    "href": "banach-spaces.html",
+    "title": "8  Banach spaces",
+    "section": "",
+    "text": "8.1 Linear forms on Banach spaces\nWe know that space of rational numbers is not complete. This is because we can find a sequence of rational number which converges to the irrational number. In this case, we know that the space of real numbers \\(R\\) fills the holes.\nWe want to have similar property for Banach spaces.\nLet \\(E\\) and \\(F\\) be Banach spaces with norm \\(\\Vert \\cdot \\Vert_{E}\\) and \\(\\Vert \\cdot \\Vert_{F}\\).\nBounded linear form: Let \\(\\Lambda : E \\longmapsto F\\) be a linear map. Then, \\(\\Lambda\\) is bounded iff\n\\[\n\\sup_{x \\in E \\backslash {0}} \\frac{\\Vert \\Lambda(x) \\Vert_{F}}{\\Vert x \\Vert_{E}} &lt; \\infty\n\\]\nLet us denote by \\(\\mathcal{L}(E,F)\\) the set of linear and bounded maps from E to F.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Banach spaces</span>"
+    ]
+  },
+  {
+    "objectID": "banach-spaces.html#properties-of-bounded-linear-maps",
+    "href": "banach-spaces.html#properties-of-bounded-linear-maps",
+    "title": "8  Banach spaces",
+    "section": "8.2 Properties of bounded linear maps",
+    "text": "8.2 Properties of bounded linear maps\nThe space \\(\\mathcal{L}(E,F)\\) is a Norm space with following norm:\n\\[\n\\Vert \\Lambda \\Vert_{\\mathcal{L}(E,F)} = \\sup_{x \\in E \\backslash {0}} \\frac{\\Vert \\Lambda(x) \\Vert_{F}}{\\Vert x \\Vert_{E}}\n\\]\nBecause \\(\\mathcal{L}(E,F)\\) is linear space, we have:\n\\[\n\\Vert \\Lambda \\Vert_{\\mathcal{L}(E,F)} = \\sup_{x \\in E, \\Vert x \\Vert_{E}=1} \\Vert \\Lambda(x) \\Vert_{F}\n\\]\n\n\n\n\n\n\nThe space \\(\\mathcal{L}(E,F)\\) is also a Banach space with respect to the above-mentioned norm.\n\n\n\nAlso we have,\n\\[\n\\Vert \\Lambda(x) \\Vert_{F} \\le \\Vert \\Lambda \\Vert_{\\mathcal{L}(E,F)} \\Vert x \\Vert_{E}, \\forall x \\in E\n\\]\n\nLet \\(\\Lambda\\) a linear map from E to F. Then, the following three assertions are equivalent:\n\n\\(\\Lambda\\) is bounded\n\\(\\Lambda\\) is continuous\n\\(\\Lambda\\) is continuous at a point \\(v_{0} \\in E\\).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Banach spaces</span>"
+    ]
+  },
+  {
+    "objectID": "banach-spaces.html#linear-functional",
+    "href": "banach-spaces.html#linear-functional",
+    "title": "8  Banach spaces",
+    "section": "8.3 Linear functional",
+    "text": "8.3 Linear functional\nIn the above-mentioned linear maps let’s consider the case when \\(F\\) is \\(\\mathbb{R}\\). In that case the linear-map maps element of \\(E\\) to a real-value. This linear map has special name and it is called the linear-functional (or, simply the functional). Therefore, a linear functional \\(l\\) is mapping:\n\\[\nl: x \\in E \\longmapsto l(x) \\in \\mathbb{R}\n\\]\nwith\n\\[\nl(\\alpha u + \\beta v) = \\alpha l(u) + \\beta l(v), \\alpha,\\beta \\in \\mathbb{R}, \\forall u,v \\in E\n\\]\nThe linear functional is bounded iff:\n\\[\n\\sup_{x \\in E \\backslash {0}} \\frac{\\vert l(x) \\vert}{\\Vert x \\Vert_{E}} &lt; \\infty\n\\]\nThe space of bounded linear functional on \\(E\\) will be denoted by\n\\[\n\\mathcal{L}(E, \\mathbb{R})\n\\]\nwhich is also known as the dual space of \\(E\\) and denoted by \\(E^{*}\\).\n\n\n\n\n\n\nIf \\(l(x)\\) is bounded \\(\\iff\\) \\(l(x)\\) is continuous.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Banach spaces</span>"
+    ]
+  },
+  {
+    "objectID": "banach-spaces.html#dual-space",
+    "href": "banach-spaces.html#dual-space",
+    "title": "8  Banach spaces",
+    "section": "8.4 Dual space",
+    "text": "8.4 Dual space\nLet \\(E\\) be the Banach space. The set of the linear and continuous (or, bounded) functional from \\(E\\) into \\(\\mathbb{R}\\) is called the dual space of E and is denoted by \\(E^{*}\\). If \\(x^{*} \\in E^{*}\\), the image \\(x^{*}(x)\\) of \\(x \\in E\\) is denoted by \\(&lt;x^{*}, x&gt;_{E^{*}, E}\\). The bracket \\(&lt;\\cdot, \\cdot&gt;_{E^{*}, E}\\) is called the duality pairing between \\(E^{*}\\) and \\(E\\).\nDual space of \\(E\\) is a Banach space with following norm:\n\\[\n\\Vert x^{*} \\Vert_{E^{*}} =  \\sup_{x \\in E \\backslash {0}} \\frac{\\vert &lt;x^{*}, x&gt;_{E^{*}, E} \\vert}{\\Vert x \\Vert_{E}}\n\\]\nor\n\\[\n\\Vert x^{*} \\Vert_{E^{*}} =  \\sup_{x \\in E, \\Vert x \\Vert_{E}=1} \\vert \\langle x^{*}, x \\rangle_{E^{*}, E} \\vert\n\\]\nAlso, we have\n\\[\n\\vert &lt;x^{*}, x&gt;_{E^{*}, E} \\vert \\le \\Vert x^{*} \\Vert_{E^{*}} {\\Vert x \\Vert_{E}}\n\\]\n\n\n\n\n\n\nWe have seen that the dual space of a Banach space is a Banach Space. Therefore, we can easily show that the dual space of the dual space of the dual space of the Banach space is also a Banach space. That is, if \\(E\\) is a Banach space, then \\(E^{*}\\) and \\(E^{**}\\) are both Banach spaces.\n\n\n\nLet \\(x\\in E\\) be fixed and introduce the map\n\\[\nf_{x} : x^{*} \\in E^{*} \\longmapsto \\langle x^{*},x \\rangle_{E^{*}, E} \\in \\mathbb{R}.\n\\]\nThen \\(f_{x} \\in E^{**}\\) and the map\n\\[\n\\mathcal{F} : x \\in E \\longmapsto f_{x} \\in E^{**}\n\\]\nis an isometry, that is,\n\\[\n\\Vert x \\Vert_{E} = \\Vert \\mathcal{F}(x) \\Vert_{E^{**}} = \\Vert f_{x} \\Vert_{E^{**}}\n\\]\n\n\n\n\n\n\nIn this way, one can identify \\(x\\) with \\(f_{x}\\), and then \\(E\\) with its image under the mapping \\(\\mathcal{F}(E) \\subset E^{**}\\). Moreover, the space \\(E\\) is called reflexive iff \\(\\mathcal{F}(E) = E^{**}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Banach spaces</span>"
+    ]
+  },
+  {
+    "objectID": "convergence.html",
+    "href": "convergence.html",
+    "title": "Convergence",
+    "section": "",
+    "text": "Strong convergence",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Convergence</span>"
+    ]
+  },
+  {
+    "objectID": "convergence.html#weak-convergence",
+    "href": "convergence.html#weak-convergence",
+    "title": "Convergence",
+    "section": "Weak convergence",
+    "text": "Weak convergence\nA sequence \\(\\{x_{n}\\}\\) in E is said to be weakly converging iff:\n\\[\n\\forall x^{*} \\in E^{*}, \\lim_{n \\rightarrow \\infty}\\langle x^*, x_{n} \\rangle_{E^*, E} &lt; \\infty\n\\]\nA sequence \\(\\{x_{n}\\}\\) in E is said to converge weakly to x iff\n\\[\n\\forall x^{*} \\in E^{*}, \\langle x^*, x_{n} \\rangle_{E^*, E} \\rightarrow \\langle x^{*}, x \\rangle_{E^*, E}\n\\]\nThis weak convergence is denote by\n\\[\nx_{n} \\rightharpoonup x \\text{ weakly in E}\n\\]\nThe uniqueness of \\(x\\) can be proven by Hahn-Banach theorem.\n\n\n\n\n\n\nStrong convergence implies weak convergence.\n\n\n\n\n\n\n\n\n\nIf E is finite dimensional Banach space, the strong convergence and the weak convergences are equivalent.\n\n\n\nIf \\(\\{x_{n}\\}\\) be a sequence weakly convergent to x in E. Then\n\n\\(\\{x_{n}\\}\\) is bounded sequence in E, that is, there exists a constant C independent of n such that \\[\n\\forall n \\in \\mathbb{N}, \\Vert x_{n} \\Vert_{E} \\le C\n\\]\nThe norm of x is lower semi-continuous with respect to the weak convergence, that is,\n\n\\[\n\\Vert x \\Vert_{E} \\le \\liminf_{n\\rightarrow\\infty} \\Vert x_{n} \\Vert_{E}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Convergence</span>"
+    ]
+  },
+  {
+    "objectID": "convergence.html#uniformly-convex-space",
+    "href": "convergence.html#uniformly-convex-space",
+    "title": "Convergence",
+    "section": "Uniformly convex space",
+    "text": "Uniformly convex space\nWe say that the Banach space E is uniformly convex if any \\(\\varepsilon&gt;0\\), there exists \\(\\delta &gt; 0\\) such that\n\\[\n\\left(x,y\\in E,\\Vert x\\Vert_{E}\\le1,\\Vert y\\Vert_{E}\\le1,\\Vert x-y\\Vert_{E}&gt;\\varepsilon\\right)\\implies\\left(\\Vert\\frac{x+y}{2}\\Vert_{E}&lt;1-\\delta\\right)\n\\]\n\n\n\n\n\n\nAny uniformly convex Banach space is reflexive, the converse being not true. Any Hilbert space is uniformly convex and thus reflexive.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Convergence</span>"
+    ]
+  },
+  {
+    "objectID": "convergence.html#weak-convergence-1",
+    "href": "convergence.html#weak-convergence-1",
+    "title": "Convergence",
+    "section": "Weak* convergence",
+    "text": "Weak* convergence\nIn order to study the weak convergence of a sequence in Banach space E, we should be aware of its dual space \\(E^*\\). However, it may happen that the dual space istoo big a space. In that case proving the weak convergence can be difficult. Moreover, in such cases, there are too few weakly convergent sequences.\nDefinition: Let E be a Banach space and \\(E^*\\) be the dual space. A sequence \\(\\{ x_{n} \\}\\) in E is said to converge weakly* to x iff\n\\[\n\\left\\langle x_{n}^{*},x\\right\\rangle _{E^{*},E}\\rightarrow\\left\\langle x^{*},x\\right\\rangle _{E^{*},E}\\forall x\\in E\n\\]\n\n\n\n\n\n\nLet \\(F\\) be a Banach space and \\(E=F^*\\). Then any weak convergent sequence in E is also weakly* convergent.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Convergence</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html",
+    "href": "lp-spaces.html",
+    "title": "10  Lp spaces",
+    "section": "",
+    "text": "10.1 Support\nLet \\(\\mathcal{O}\\) and \\(\\Omega\\) denote respectively, an open set and a bounded open set in \\(\\mathbb{R}^{N}\\).\nFor any function \\(\\phi : \\mathcal{O} \\mapsto \\mathbb{R}\\), the support of \\(\\phi\\), denoted by \\(\\text{supp} \\phi\\), is defined by the following closed set of \\(\\mathcal{O}\\):\n\\[\n\\text{supp} \\phi = \\bar{\\{ x \\in \\mathcal{O}, \\phi \\ne 0\\}} \\cap \\mathcal{O}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#space-of-smooth-functions",
+    "href": "lp-spaces.html#space-of-smooth-functions",
+    "title": "10  Lp spaces",
+    "section": "10.2 Space of smooth functions",
+    "text": "10.2 Space of smooth functions\nWe will denote by \\(\\mathcal{D}(\\mathcal{O})\\) or by \\(C_{0}^{\\infty}(\\mathcal{O})\\) the set of indefinitely differentiable functions whose support is a compact set of \\(\\mathbb{R}^{N}\\).\nFurther, we denote by \\(C_{c}^{0}(\\mathcal{O})\\) the set of continuous functions whose support is compact set of \\(\\mathbb{R}^{N}\\) in \\(\\mathcal{O}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#definition",
+    "href": "lp-spaces.html#definition",
+    "title": "10  Lp spaces",
+    "section": "10.3 Definition",
+    "text": "10.3 Definition\nLet \\(p \\in \\mathbb{R}\\) with \\(1 \\le p &lt; \\infty\\). Define\n\\[\nL^{p}(\\mathcal{O})=\\left\\{ f,f:\\mathcal{O}\\mapsto\\mathbb{R},f\\text{ measurable and s.t. }\\int_{\\mathcal{O}}\\vert f(x)\\vert dx&lt;\\infty\\right\\}\n\\]\n\\[\nL^{\\infty}\\left(\\mathcal{O}\\right)=\\left\\{ f,f:\\mathcal{O}\\mapsto\\mathbb{R},f\\text{ measurable and s.t. }\\exists C\\in\\mathbb{R},\\vert f(x)\\vert&lt;C\\right\\}\n\\]\nWe also define:\n\\[\nL_{loc}^{p}\\left(\\mathcal{O}\\right)=\\left\\{ f,f\\in L^{p}\\left(\\omega\\right),\\text{ for any open bounded set } {\\omega}\\text{ with }\\bar{\\omega}\\subset\\mathcal{O}\\right\\}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#properties",
+    "href": "lp-spaces.html#properties",
+    "title": "10  Lp spaces",
+    "section": "10.4 Properties",
+    "text": "10.4 Properties\n\\(L^{p}\\) spaces, for \\(1 \\le p \\le \\infty\\), are Banach spaces for the norm:\n\\[\n\\left\\Vert f\\right\\Vert _{L^{p}}=\\begin{cases}\n\\left[\\int_{\\mathcal{O}}\\vert f(x)\\vert^{p}dx\\right]^{1/p} & p&lt;\\infty\\\\\n\\inf\\left\\{ C,\\vert f\\vert\\le C\\text{ a.e. on }\\mathcal{O}\\right\\}  & p=\\infty\n\\end{cases}\n\\]\nIt is worth noting that for \\(p=2\\), the space \\(L^{2}\\) is a Hilbert space for the inner product:\n\\[\n\\left(f,g\\right)_{L^{2}}=\\int_{\\mathcal{O}}f(x)g(x)dx\n\\]\nThe space \\(L^{p}(\\mathcal{O})\\) is separable for \\(1\\le p &lt; \\infty\\), and is uniformly convex for \\(1&lt;p&lt;\\infty\\).\nThe space \\(L^{p}(\\mathcal{O})\\) is reflexive for \\(1 &lt; p &lt; \\infty\\).\nThe space \\(L^{\\infty}(\\mathcal{O})\\) is neither reflexive nor separable.\n\\(\\mathcal{D}(\\mathcal{O})\\) is dense in \\(L^{p}\\), for \\(p \\in [1,+\\infty)\\).\nThe density result does not hold true for \\(p=\\infty\\).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#holder-inequality",
+    "href": "lp-spaces.html#holder-inequality",
+    "title": "10  Lp spaces",
+    "section": "10.5 Holder inequality",
+    "text": "10.5 Holder inequality\nLet \\(1 \\le p \\le \\infty\\), then its conjugate \\(q\\) is given by\n\\[\n\\begin{cases}\n\\frac{1}{p}+\\frac{1}{q}=1 & 1&lt;p&lt;\\infty\\\\\nq=\\infty & p=1\\\\\nq=1 & p=\\infty\n\\end{cases}\n\\]\nThen, for \\(f \\in L^{p}\\) and \\(g \\in L^{q}\\), Holder inequality state that\n\\[\n\\int_{\\mathcal{O}}\\vert f(x)g(x)\\vert dx\\le\\Vert f\\Vert_{L^{p}}\\Vert g\\Vert_{L^{q}}\n\\]\nNote that for \\(p=2\\), \\(q=2\\), therefore, Holder inequality coincides with the Cauchy-Schwarz inequality.\nDue to this inequality following result holds:\nLet \\(1\\le p \\le q \\le \\infty\\), then\n\\[\nL^{q}(\\Omega) \\subset L^{p}(\\Omega)\n\\]\nwith\n\\[\n\\Vert f \\Vert_{L^{p}} \\le c \\Vert f \\Vert_{L^{q}},\n\\]\nwhere the constant c depends upon \\(\\vert \\Omega \\vert\\), p and q.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#representation-theorem",
+    "href": "lp-spaces.html#representation-theorem",
+    "title": "10  Lp spaces",
+    "section": "10.6 Representation theorem",
+    "text": "10.6 Representation theorem\nLet \\(1 \\le p &lt; \\infty\\) and \\(q\\) be the conjugate of p. Let \\(f \\in L^{p*}\\). Then, there exists a unique \\(g \\in L^{q}\\), such that\n\\[\n\\left\\langle f,\\phi\\right\\rangle _{L^{p*},L^{p}}=\\int_{\\mathcal{O}}g(x)\\phi(x)dx,\\forall\\phi\\in L^{p}\\left(\\mathcal{O}\\right)\n\\]\nMoreover,\n\\[\n\\Vert g \\Vert_{L^q} = \\Vert f \\Vert_{L^{p*}}\n\\]\nIn otherwords, for \\(1\\le p &lt; \\infty\\), we can identify the dual space of \\(L^{p}\\) with \\(L^{q}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#characteristic-function",
+    "href": "lp-spaces.html#characteristic-function",
+    "title": "10  Lp spaces",
+    "section": "10.7 Characteristic function",
+    "text": "10.7 Characteristic function\nLet A be a measurable set in \\(\\mathbb{R}^{N}\\). The Characteristic function \\(\\chi_{A}\\) of A is given by:\n\\[\n\\chi_{A}=\\begin{cases}\n1 & \\text{if }x\\in A\\\\\n0 & \\text{if }x\\in\\mathbb{R}^{N}\\backslash A\n\\end{cases}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "lp-spaces.html#step-function",
+    "href": "lp-spaces.html#step-function",
+    "title": "10  Lp spaces",
+    "section": "10.8 Step function",
+    "text": "10.8 Step function\nA function \\(f: \\mathbb{R}^{N} \\mapsto \\mathbb{R}\\) is called a step function if\n\\[\nf(x) = \\sum_{k=1}^{m} \\alpha_{k} \\chi_{I_{k}}\n\\]\nwith \\(m \\in \\mathbb{N},\\alpha_{k} \\in \\mathbb{R}\\) and where \\(I_{k}\\) is an interval in \\(\\mathbb{R}^{N}\\), for any \\(k \\in \\{ 1, \\cdots, m\\}\\).\nIf \\(\\Omega \\subset \\mathbb{R}^{N}\\) is a bounded open set, we denote by \\(S(\\Omega)\\) the set of step functions of the above-mentioned form, such that \\(I_{k} \\subset \\Omega\\), for any \\(k \\in \\{1, \\cdots, m\\}\\). It can be shown that \\(S(\\Omega) \\subset L^{p}(\\Omega)\\) for any p such that \\(1 \\le p \\le \\infty\\). Moreover, for \\(1 \\le p &lt; \\infty\\), \\(S(\\Omega)\\) is dense in \\(L^{p}(\\Omega)\\).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lp spaces</span>"
+    ]
+  },
+  {
+    "objectID": "cauchy-schwarz-inequality.html",
+    "href": "cauchy-schwarz-inequality.html",
+    "title": "Cauchy-Schwarz Inequality",
+    "section": "",
+    "text": "\\(\\forall f,g \\in L^2(\\Omega)\\)\n\\[\n\\vert \\left ( f,g\\right )_{\\Omega}\\vert\\le \\Vert f\\Vert_{L^2(\\Omega)} \\Vert g\\Vert_{L^2(\\Omega)}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Cauchy-Schwarz Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "holders-inequality.html",
+    "href": "holders-inequality.html",
+    "title": "Holders inequality",
+    "section": "",
+    "text": "Let \\(a,b\\in R^n\\), for \\(p&gt;1\\) and \\(q&gt;1\\) such that\n\\[\n\\frac{1}{p} + \\frac{1}{q} = 1\n\\]\nthen\n\\[\n\\sum_{i=1}^{n}\\vert a_i \\cdot b_i \\vert \\le \\Vert a \\Vert_{p} \\Vert b \\Vert_{q}\n\\]\nFor \\(p=q=2\\), we have\n\\[\n\\vert a \\cdot b\\vert \\le \\Vert a \\Vert_{2} \\Vert b \\Vert_{2}\n\\]\nNote that [[Cauchy-Schwarz-Inequality]] states that\n\\[\n\\sum_{i=1}^{n} a_i \\cdot b_i \\le \\Vert a \\Vert_{p} \\Vert b \\Vert_{q}\n\\]\nAlso note that\n\\[\n\\sum_{i=1}^{n} a_i \\cdot b_i \\le \\sum_{i=1}^{n}\\vert a_i \\cdot b_i \\vert\n\\]\nWe can also show that\n\\[\n\\sum_{i=1}^{n}\\left \\vert \\frac{a_i}{\\Vert a \\Vert_{p}} \\frac{b_i}{\\Vert b \\Vert_{q}} \\right \\vert \\le  1\n\\]\nor\n\\[\n\\sum_{i=1}^{n}\\left \\vert \\hat{a}_{i} \\hat{b}_{i} \\right \\vert \\le  1\n\\]\nwhere, \\(\\Vert \\hat{a} \\Vert_{p}=\\Vert \\hat{a} \\Vert_{q}=1\\).",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Holders inequality</span>"
+    ]
+  },
+  {
+    "objectID": "friedrich-inequality.html",
+    "href": "friedrich-inequality.html",
+    "title": "Friedrich Inequality",
+    "section": "",
+    "text": "It places a bound on the \\(L^p\\) norm of a function using \\(L^p\\) bounds on the weak derivatives of the function and the geometry of the domain, and can be used to show that certain norms on Sobolev spaces are equivalent.\nLet \\(\\Omega\\) be a bounded subset of Euclidean space \\(\\mathbb {R} ^{n}\\) with diameter \\(d\\). Suppose that \\(u:\\Omega \\to \\mathbb {R}\\) lies in the Sobolev space \\(W_{0}^{k,p}(\\Omega )\\) , i.e., \\(u\\in W^{k,p}(\\Omega )\\) and the trace of \\(u\\) on the boundary \\(\\partial\\Omega\\) is zero. Then\n\\[\n\\|u\\|_{L^{p}(\\Omega )}\\leq d^{k}\\left(\\sum_{|\\alpha |=k}\\|\\mathrm {D} ^{\\alpha }u\\|_{L^{p}(\\Omega )}^{p}\\right)^{1/p}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Friedrich Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "minkowski-inequality.html",
+    "href": "minkowski-inequality.html",
+    "title": "Minkowski Inequality",
+    "section": "",
+    "text": "Proof\nIt is also called the triangle inequality in \\(L^p\\) space.\n\\[\n\\Vert x + y \\Vert _{p} \\le \\Vert x \\Vert_{p} + \\Vert y \\Vert_{q}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Minkowski Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "linear-functionals.html",
+    "href": "linear-functionals.html",
+    "title": "15  Linear functional",
+    "section": "",
+    "text": "A linear function \\(l(u)\\) on \\(\\mathcal{V}\\) is a real valued linear function such that\n\\[\nl(\\alpha u + \\beta v) = \\alpha l(u) + \\beta l(v), \\alpha,\\beta \\in R, \\forall u,v \\in \\mathcal{V}\n\\]\nIf \\(l(u)\\) is continuous then, there exits a \\(c\\) such that:\n\\[\nl(u) \\le c \\Vert u \\Vert \\forall u \\in \\mathcal{V}\n\\]\nThe set of all continuous linear functional defined on \\(V\\) forms itself a norm space which is called the dual space of \\(V\\) and it is denoted by \\(V^{*}\\). The norm on the dual space is given by\n\\[\n\\Vert l \\Vert _{V*} := sup \\left (\\frac{l(u)}{\\Vert u \\Vert} \\right ) = sup \\left ( l \\left (\\frac{u}{\\Vert u\\Vert} \\right ) \\right )\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Linear functional</span>"
+    ]
+  },
+  {
+    "objectID": "innerproduct-spaces.html",
+    "href": "innerproduct-spaces.html",
+    "title": "16  Inner product spaces",
+    "section": "",
+    "text": "16.1 Definition\nLet \\(H\\) be a real linear space. A mapping\n\\[\n(\\cdot, \\cdot) : (x,y) \\in H \\times H \\longmapsto (x,y)_{H} \\in \\mathbb{R}\n\\]\nis called a (real) inner product iff, \\(\\forall x,y,z \\in H\\) and \\(\\alpha, \\beta \\in \\mathbb{R}\\):\nNote that an inner product induces a norm by\n\\[\n\\Vert x \\Vert = (x,x)_{H}^{1/2}\n\\]\nTherefore, all inner-product spaces are norm spaces.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Inner product spaces</span>"
+    ]
+  },
+  {
+    "objectID": "innerproduct-spaces.html#definition",
+    "href": "innerproduct-spaces.html#definition",
+    "title": "16  Inner product spaces",
+    "section": "",
+    "text": "\\((x,x)_{H} &gt; 0 x \\ne 0\\)\n\\((x,x)_{H} = 0\\) \\(\\iff x=0\\)\n\\((x,y)_{H}=(y,x)_{H}\\)\n\\((\\alpha x + \\beta y, z)_{H}=\\alpha (x,z)_{H}+\\beta (y,z)_{H}\\)\n\n\n\n\n\n\n\n\n\n\nHilbert Space\n\n\n\nIf \\(H\\) is a Banach space with respect to the norm induced by the inner product, then \\(H\\) is called a Hilbert space. In other words, Every Hilbert space is a Banach Space. But not all Banach spaces are Hilbert spaces. This is because not all norm comes from the inner product.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Inner product spaces</span>"
+    ]
+  },
+  {
+    "objectID": "riesz-representation-theorem.html",
+    "href": "riesz-representation-theorem.html",
+    "title": "Riesz Representation Theorem",
+    "section": "",
+    "text": "If \\(V\\) is a Hilbert space then its dual space \\(V*\\) can be identified with \\(V\\):\n\nFor each \\(v\\in V\\) the linear functional \\(l(u):=(u,v)\\) belongs to the \\(V*\\) and \\(\\Vert l \\Vert_{V*}=\\Vert v\\Vert_{V}\\)\nFor each \\(l \\in V*\\) there exists a unique \\(v\\in V\\) such that \\(\\Vert l \\Vert_{V*}=\\Vert v\\Vert_{V}\\), and \\((u,v)=l(u), \\forall u \\in V\\).",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Riesz Representation Theorem</span>"
+    ]
+  },
+  {
+    "objectID": "lax-milgram-theorem.html",
+    "href": "lax-milgram-theorem.html",
+    "title": "Lax Milgram Theorem",
+    "section": "",
+    "text": "Let V be a real Hilbert space. Let \\(a:V\\times V \\rightarrow R\\) be a bilinear form that is\n\nContinuous: \\(\\vert a(u,v) \\vert \\le C_{1} \\Vert u \\Vert_{V} \\Vert v \\Vert _{V}\\)\nCoercive: \\(a(u,u) \\ge C_{2} \\Vert u \\Vert^2_{V}\\)\n\nLet \\(l:V\\rightarrow R\\) be a continuous linear functional. Then, there exists a unique \\(u \\in V\\) such that\n\\[\n\\forall v \\in V, a(u,v)=l(v)\n\\]\nMoreover, the solution \\(u\\) is bounded by data\n\\[\n\\Vert u \\Vert_{V} \\le \\frac{1}{C_2} \\Vert l \\Vert_{V^*}\n\\]\nCoercive property tells us that\nif \\(a(u,u)=0\\), then \\(\\Vert u \\Vert ^{2} \\le 0\\), therefore, \\(u=0\\). Hence, we can define a norm using \\(a(u,u)\\) as follows\n\\[\n\\Vert u \\Vert_{E}^2 = a(u,u)\n\\]\nThis is sometimes called the strain energy norm.\nThe norm on dual space \\(V^*\\) is defined by\n\\[\n\\Vert l \\Vert_{V^*} = \\sup_{v\\in V}\\frac{\\vert l(v)\\vert}{\\Vert v\\Vert_{V}}\n\\]\nBecause \\(a(u,v)=l(v)\\), we have\n\\[\n\\frac{\\vert l(v) \\vert}{\\Vert v\\Vert}=\\frac{\\vert a(u,v) \\vert }{\\Vert v\\Vert}\\le\\frac{\\Vert u\\Vert\\Vert v\\Vert}{\\Vert v\\Vert}=\\Vert u\\Vert\n\\]\nTherefore,\n\\[\n\\Vert l \\Vert_{V^*} = \\sup_{v\\in V}\\frac{\\vert l(v)\\vert}{\\Vert v\\Vert_{V}} \\le \\Vert u \\Vert\n\\]\nIt means \\(\\Vert u \\Vert\\) is an upper bound.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Lax Milgram Theorem</span>"
+    ]
+  },
+  {
+    "objectID": "sobolev-spaces.html",
+    "href": "sobolev-spaces.html",
+    "title": "19  Sobolev Spaces",
+    "section": "",
+    "text": "19.1 Weak derivatives\nHow to define the smoothness of a mathematical function? There are many criteria for smoothness.\nIn the twentieth century, it was observed that the space \\(C^1, C^2, \\cdots\\) was not exactly the right space to study solutions of differential equations. The Sobolev spaces are the modern replacement for these spaces in which to look for solutions of partial differential equations.\nIn the one-dimensional case the Sobolev space \\(W^{k,p}(\\mathbb {R} )\\) for \\(1\\leq p\\leq \\infty\\) is defined as the subset of functions \\(f\\) in \\(L^{p}(\\mathbb {R} )\\) such that \\(f\\) and its weak derivatives up to order \\(k\\) have a finite \\(L_p\\) norm.\nWhen \\(p=2\\), we get the Sobolev space which are also Hilbert space, that is\n\\[\nH^p(\\Omega) = W^{2,p}(\\Omega)\n\\]\nLet us understand the concept of multi-index. A multi-index \\(\\alpha\\) is an array of non-negative integers which serves as short-hand for derivatives as in\n\\[\n\\frac{\\partial^3 u}{\\partial x^2 \\partial y} = \\partial_{\\alpha} u \\quad \\alpha=(2,1), \\quad \\vert \\alpha \\vert=3\n\\]\n\\[\n\\frac{\\partial^4 u}{\\partial x^2 \\partial y^2} = \\partial_{\\alpha} u \\quad \\alpha=(2,2), \\quad \\vert \\alpha \\vert=4\n\\]\nLet \\(\\alpha\\) a multi-index and \\(u \\in L_{2}(\\Omega)\\). The function \\(u_{\\alpha} := \\partial_{\\alpha} u \\in L_{2}(\\Omega)\\) is called the weak derivative of \\(u\\) if:\n\\[\n\\int_{\\Omega} u \\partial_{\\alpha} \\phi = (-1)^{\\vert \\alpha \\vert} \\int_{\\Omega} \\partial_{\\alpha}u \\phi \\quad \\forall \\phi \\in C_{0}^{\\infty}(\\Omega)\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Sobolev Spaces</span>"
+    ]
+  },
+  {
+    "objectID": "h1-norm.html",
+    "href": "h1-norm.html",
+    "title": "H1-norm",
+    "section": "",
+    "text": "Inner product\n\\[\n\\left(u,v\\right)_{H^{1}}:=\\left(u,v\\right)+\\left(\\nabla u,\\nabla v\\right)\n\\]\nNorm\n\\[\n\\left\\Vert u\\right\\Vert _{H^{1}}^{2}=\\left\\Vert u\\right\\Vert ^{2}+\\left\\Vert D^{1}u\\right\\Vert ^{2}\n\\]\nWhere,\n\\[\n\\left\\Vert D^{1}u\\right\\Vert ^{2}=\\int_{\\Omega}\\left\\{ \\left(\\frac{\\partial u}{\\partial x}\\right)^{2}+\\left(\\frac{\\partial u}{\\partial y}\\right)^{2}\\right\\} d\\Omega\n\\]\n\nAn important property of functions \\(v \\in \\mathcal{H}^1\\) is that they have a well-defined restriction to the boundary \\(\\Gamma\\).",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>H1-norm</span>"
+    ]
+  },
+  {
+    "objectID": "h2-norm.html",
+    "href": "h2-norm.html",
+    "title": "H2-norm",
+    "section": "",
+    "text": "H2 regularity\n\\(\\mathcal{H}^2 \\subset \\mathcal{H}^1\\).\n\\[\n\\Vert v\\Vert_{H^{2}}^{2}=\\Vert v\\Vert_{H^{1}}^{2}+\\Vert D^{2}v\\Vert^{2}\n\\]\n\\[\n\\Vert D^{2}v\\Vert^{2}=\\int_{\\Omega}\\left\\{ \\left(\\frac{\\partial^{2}u}{\\partial x^{2}}\\right)^{2}+\\left(\\frac{\\partial^{2}u}{\\partial y^{2}}\\right)^{2}+\\left(\\frac{\\partial^{2}u}{\\partial x\\partial y}\\right)^{2}\\right\\}\n\\]\n\\[\n\\Vert v \\Vert_{H^2} \\le C_{\\Omega} \\Vert f \\Vert\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>H2-norm</span>"
+    ]
+  },
+  {
+    "objectID": "young-inequality.html",
+    "href": "young-inequality.html",
+    "title": "22  Young’s inequality",
+    "section": "",
+    "text": "22.1 Proof\nLet \\(p&gt;1\\) and \\(q&gt;1\\) such that\n\\[\np^{-1} + q^{-1}=1\n\\]\nthen\n\\[\na\\cdot b \\le \\frac{a^p}{p} + \\frac{b^q}{q}\n\\]\nfor \\(p=2,q=2\\), we get\n\\[\na\\cdot b \\le \\frac{a^2}{2} + \\frac{b^2}{2}\n\\]\n\\(\\forall \\varepsilon &gt; 0\\), \\(\\forall a,b \\in R\\),\n\\[\nab \\le \\frac{\\varepsilon}{2}a^2 + \\frac{1}{2\\varepsilon} b^2\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Young's inequality</span>"
+    ]
+  },
+  {
+    "objectID": "poincare-inequality.html",
+    "href": "poincare-inequality.html",
+    "title": "Poincare Inequality",
+    "section": "",
+    "text": "In mathematics, the Poincare inequality allows us to obtain bounds on a function using bounds on its derivatives and the geometry of its domain of definition. It is very closely related result is Friedrichs inequality.\nIn general Poincare inequality states that \\(L_p\\) norm of \\(v\\) is bounded from above by the \\(L_p\\) norm of gradient field \\(\\nabla{v}\\).\n\\[\n\\left(\\int_{\\Omega}\\vert v\\vert^{p}d\\Omega\\right)^{1/p}\\le C\\left(\\int_{\\Omega}\\vert\\nabla v\\vert^{p}\\right)^{1/p},\\forall v\\in H_{0}^{s}\\left(\\Omega\\right)\n\\]\nHere, \\(v\\) belongs to the Sobolev space of zero-trace function \\(W^{1,p}_{0}\\).\nAssume that \\(\\Omega \\subset \\mathbb{R}^2\\) is contained in a square with side length \\(L\\). Given that \\(\\int_{\\Gamma_{g}}{dS}\\ne 0\\), it follows that\n\\[\n\\left\\Vert v\\right\\Vert_{0,\\Omega} \\le C\\left\\Vert \\nabla v\\right\\Vert_{0,\\Omega} \\text{ for all }v\\in\\mathcal{H}_{0}^{1}\n\\]\nwhere, C is the Poincare constant, and \\(\\Vert \\cdot \\Vert_{0,\\Omega}\\) denotes the \\(L_2(\\Omega)\\) norm.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Poincare Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "trace-inequality.html",
+    "href": "trace-inequality.html",
+    "title": "Trace inequality",
+    "section": "",
+    "text": "Given a bounded domain \\(\\Omega\\) with a sufficiently smooth boundary \\(\\Gamma\\), a constant \\(C_{\\Gamma}\\) exists such that\n\\[\n\\left\\Vert v\\right\\Vert _{\\Gamma}\\le C_{\\Gamma}\\left\\Vert v\\right\\Vert _{H^{1}},\\forall v\\in\\mathcal{H}^{1}\n\\]\n\nThis means that \\(v\\) at the boundary is bounded from above by the \\(H^1\\) norm of v.\n\n\nNote that there is no constant \\(C\\) such that \\(\\Vert v \\Vert_{\\Gamma} \\le C \\Vert v \\Vert\\) for every \\(v \\in L_{2}\\), hence it does not make any sense to associate boundary values to the functions in \\(L_{2}\\) space.\n\nLet \\(v \\in \\mathcal{H}^1\\), and it satisfies the [[Friedrich-Inequality]].\n\\[\n\\left\\Vert \\nabla v\\right\\Vert \\le\\left\\Vert v\\right\\Vert _{H^{1}}\\le C_{\\Omega}\\left\\Vert \\nabla v\\right\\Vert ,\\forall v\\in\\mathcal{H}_{0}^{1}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Trace inequality</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "25  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  }
+]
