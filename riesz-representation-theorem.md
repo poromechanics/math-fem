@@ -1,4 +1,4 @@
-# 𑗕 Riesz Representation
+# Riesz Representation Theorem
 
 If $V$ is a Hilbert space then its dual space $V*$ can be identified with $V$:
 

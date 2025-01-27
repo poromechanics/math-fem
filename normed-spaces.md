@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# 𑗕 Normed spaces
+# Normed spaces
 
 In metric spaces we have metric to measure the distance between two elements of a metric space. By using the metric we can study how close or far two elements are from each other.
 
@@ -10,7 +6,8 @@ We want to develop such concepts in vector space. Then, we can check closeness b
 
 ## Norm
 
-:::info Definition: Norm
+Definition: Norm
+
 A mapping
 
 $$
@@ -36,10 +33,8 @@ $$
 $$
 \Vert x + y \Vert \le \Vert x \Vert + \Vert y \Vert, \forall x, y \in V.
 $$
-:::
 
-:::success Example
-The Euclidean norm on $R^{n}$ or $C^{n}$, given by
+Example: The Euclidean norm on $R^{n}$ or $C^{n}$, given by
 
 $$
 \Vert x \Vert_{2} := \left( \sum_{i=1}^{n} \vert x_{i} \vert ^{2} \right)^{1/2}
@@ -59,8 +54,6 @@ $$
 \Vert x \Vert_{p} := \left( \sum_{i=1}^{n} \vert x_{i} \vert ^{p} \right)^{1/p}
 $$
 
-:::
-
 ## Seminorm
 
 A seminorm is a mapping
@@ -73,9 +66,8 @@ which satisfies the Homogeneity and Triangle inequality but not necessarily Defi
 
 ## Definition
 
-:::note Normed space
-A vector space $V$ which is equipped with the norm $\Vert \cdot \Vert_{V}$ is called the normed space.
-:::
+Normed space: A vector space $V$ which is equipped with the norm $\Vert \cdot \Vert_{V}$ is called the normed space.
+
 
 ## Metric and Norm
 
@@ -93,8 +85,8 @@ which has following three conditions:
 
 It is clear that norm induces a metric:
 
-:::info Metric induce by Norm
-Let $\Vert \cdot \Vert$ be a norm on a vector space V. Then,
+:::{.callout-note}
+Metric induce by Norm: Let $\Vert \cdot \Vert$ be a norm on a vector space V. Then,
 
 $$
 d(x,y) = \Vert y - x \Vert, \forall x,y \in V

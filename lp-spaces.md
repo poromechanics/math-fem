@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# 𑗕 Lp spaces
+# Lp spaces
 
 Let $\mathcal{O}$ and $\Omega$ denote respectively, an open set and a bounded open set in $\mathbb{R}^{N}$.
 
@@ -49,7 +45,7 @@ $$
 \end{cases}
 $$
 
-It is worthnoting that for $p=2$, the space $L^{2}$ is a Hilbert space for the inner product:
+It is worth noting that for $p=2$, the space $L^{2}$ is a Hilbert space for the inner product:
 
 $$
 \left(f,g\right)_{L^{2}}=\int_{\mathcal{O}}f(x)g(x)dx

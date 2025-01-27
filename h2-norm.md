@@ -1,4 +1,4 @@
-# 𑗕 H2-norm
+# H2-norm
 
 $\mathcal{H}^2 \subset \mathcal{H}^1$.
 

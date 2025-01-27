@@ -1,4 +1,4 @@
-# 𑗕 Minkowski Inequality
+# Minkowski Inequality
 
 It is also called the triangle inequality in $L^p$ space.
 

@@ -23,6 +23,6 @@ $$
 
 Therefore, all inner-product spaces are norm spaces.
 
-:::info Hilbert space
+:::{.callout-note title="Hilbert Space"}
 If $H$ is a Banach space with respect to the norm induced by the inner product, then $H$ is called a Hilbert space. In other words, Every Hilbert space is a Banach Space. But not all Banach spaces are Hilbert spaces. This is because not all norm comes from the inner product.
 :::

@@ -1,4 +1,4 @@
-# 𑗕 Holders inequality
+# Holders inequality
 
 Let $a,b\in R^n$, for $p>1$ and $q>1$ such that
 

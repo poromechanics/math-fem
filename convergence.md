@@ -1,8 +1,4 @@
----
-sidebar_position: 3
----
-
-# 𑗕 Convergence
+# Convergence
 
 ## Strong convergence
 
@@ -28,15 +24,14 @@ $$
 
 The uniqueness of $x$ can be proven by Hahn-Banach theorem.
 
-:::note
+:::{.callout-note appearance="simple"}
 Strong convergence implies weak convergence.
 :::
 
-:::info
+:::{.callout-tip appearance="simple"}
 If E is finite dimensional Banach space, the strong convergence and the weak convergences are equivalent.
 :::
 
-:::note
 If $\{x_{n}\}$ be a sequence weakly convergent to x in E. Then
 
 1. $\{x_{n}\}$ is bounded sequence in E, that is, there exists a constant C independent of n such that
@@ -49,7 +44,6 @@ $$
 $$
 \Vert x \Vert_{E} \le \liminf_{n\rightarrow\infty} \Vert x_{n} \Vert_{E}
 $$
-:::
 
 ## Uniformly convex space
 
@@ -59,7 +53,7 @@ $$
 \left(x,y\in E,\Vert x\Vert_{E}\le1,\Vert y\Vert_{E}\le1,\Vert x-y\Vert_{E}>\varepsilon\right)\implies\left(\Vert\frac{x+y}{2}\Vert_{E}<1-\delta\right)
 $$
 
-:::note
+:::{.callout-note appearance="simple"}
 Any uniformly convex Banach space is reflexive, the converse being not true. Any Hilbert space is uniformly convex and thus reflexive.
 :::
 
@@ -67,14 +61,12 @@ Any uniformly convex Banach space is reflexive, the converse being not true. Any
 
 In order to study the weak convergence of a sequence in Banach space E, we should be aware of its dual space $E^*$. However, it may happen that the dual space is*too big* a space. In that case proving the weak convergence can be difficult. Moreover, in such cases, there are too few weakly convergent sequences.
 
-:::note Definition
-Let E be a Banach space and $E^*$ be the dual space. A sequence $\{ x_{n} \}$ in E is said to converge weakly* to x iff
+Definition: Let E be a Banach space and $E^*$ be the dual space. A sequence $\{ x_{n} \}$ in E is said to converge weakly* to x iff
 
 $$
 \left\langle x_{n}^{*},x\right\rangle _{E^{*},E}\rightarrow\left\langle x^{*},x\right\rangle _{E^{*},E}\forall x\in E
 $$
-:::
 
-:::info
+:::{.callout-tip appearance="simple"}
 Let $F$ be a Banach space and $E=F^*$. Then any weak convergent sequence in E is also weakly* convergent.
 :::

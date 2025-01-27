@@ -1,4 +1,4 @@
-# 𑗕 Young's inequality
+# Young's inequality
 
 Let $p>1$ and $q>1$ such that
 

@@ -1,10 +1,6 @@
----
-sidebar_position: 2
----
+# Banach spaces
 
-# 𑗕 Banach spaces
-
-:::info Definition: Banach space
+:::{.callout-note title="Definition"}
 A normed space is a Banach space if it is complete with respect to the metric induced by the norm.
 :::
 
@@ -14,7 +10,7 @@ We want to have similar property for Banach spaces.
 
 - $R^{n}$ and $C^{n}$ are complete with respect to any of the $\Vert \cdot \Vert_{p}$ norms.
 
-:::note Theorem
+:::{.callout-note title="Theorem"}
 For any metric space $X$, the space of bounded, continuous functions of $X$ is complete, and thus $C_{\infty}(X)$ is a Banach space.
 :::
 
@@ -22,14 +18,12 @@ For any metric space $X$, the space of bounded, continuous functions of $X$ is c
 
 Let $E$ and $F$ be Banach spaces with norm $\Vert \cdot \Vert_{E}$ and $\Vert \cdot \Vert_{F}$.
 
-:::info Bounded linear form
-Let $\Lambda : E \longmapsto F$ be a linear map. Then, $\Lambda$ is bounded iff
+Bounded linear form: Let $\Lambda : E \longmapsto F$ be a linear map. Then, $\Lambda$ is bounded iff
 
 $$
 \sup_{x \in E \backslash {0}} \frac{\Vert \Lambda(x) \Vert_{F}}{\Vert x \Vert_{E}} < \infty
 $$
 
-:::
 
 Let us denote by $\mathcal{L}(E,F)$ the set of linear and bounded maps from E to F.
 
@@ -47,7 +41,7 @@ $$
 \Vert \Lambda \Vert_{\mathcal{L}(E,F)} = \sup_{x \in E, \Vert x \Vert_{E}=1} \Vert \Lambda(x) \Vert_{F}
 $$
 
-:::info
+:::{.callout-note appearance="simple"}
 The space $\mathcal{L}(E,F)$ is also a Banach space with respect to the above-mentioned norm.
 :::
 
@@ -57,7 +51,8 @@ $$
 \Vert \Lambda(x) \Vert_{F} \le \Vert \Lambda \Vert_{\mathcal{L}(E,F)} \Vert x \Vert_{E}, \forall x \in E
 $$
 
-:::info Theorem
+:::{.calllout-note title="Theorem"}
+
 Let $\Lambda$ a linear map from E to F. Then, the following three assertions are equivalent:
 
 1. $\Lambda$ is bounded
@@ -93,15 +88,13 @@ $$
 
 which is also known as the dual space of $E$ and denoted by $E^{*}$.
 
-:::note
+:::{.callout-note appearance="simple"}
 If $l(x)$ is bounded $\iff$ $l(x)$ is continuous.
 :::
 
 ## Dual space
 
-:::note Dual space
 Let $E$ be the Banach space. The set of the linear and continuous (or, bounded) functional from $E$ into $\mathbb{R}$ is called the dual space of E and is denoted by $E^{*}$. If $x^{*} \in E^{*}$, the image $x^{*}(x)$ of $x \in E$ is denoted by $<x^{*}, x>_{E^{*}, E}$. The bracket $<\cdot, \cdot>_{E^{*}, E}$ is called the duality pairing between $E^{*}$ and $E$.
-:::
 
 Dual space of $E$ is a Banach space with following norm:
 
@@ -121,7 +114,7 @@ $$
 \vert <x^{*}, x>_{E^{*}, E} \vert \le \Vert x^{*} \Vert_{E^{*}} {\Vert x \Vert_{E}}
 $$
 
-:::info
+:::{.callout-note appearance="simple"}
 We have seen that the dual space of a Banach space is a Banach Space. Therefore, we can easily show that the dual space of the dual space of the dual space of the Banach space is also a Banach space. That is, if $E$ is a Banach space, then $E^{*}$ and $E^{**}$ are both Banach spaces.
 :::
 
@@ -143,6 +136,6 @@ $$
 \Vert x \Vert_{E} = \Vert \mathcal{F}(x) \Vert_{E^{**}} = \Vert f_{x} \Vert_{E^{**}}
 $$
 
-:::note
+:::{.callout-note appearance="simple"}
 In this way, one can identify $x$ with $f_{x}$, and then $E$ with its image under the mapping $\mathcal{F}(E) \subset E^{**}$. Moreover, the space $E$ is called reflexive iff $\mathcal{F}(E) = E^{**}$.
 :::

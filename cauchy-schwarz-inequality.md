@@ -1,4 +1,4 @@
-# 𑗕 Cauchy-Schwarz Inequality
+# Cauchy-Schwarz Inequality
 
 $\forall f,g \in L^2(\Omega)$
 

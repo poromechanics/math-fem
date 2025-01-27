@@ -1,4 +1,4 @@
-# 𑗕 Friedrich Inequality
+# Friedrich Inequality
 
 It places a bound on the $L^p$ norm of a function using $L^p$ bounds on the weak derivatives of the function and the geometry of the domain, and can be used to show that certain norms on Sobolev spaces are equivalent.
 

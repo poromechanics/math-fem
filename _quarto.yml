@@ -5,8 +5,31 @@ project:
 book:
   title: "Mathematics of Finite Element Methods"
   author: "Vikas Sharma"
-  date: "1/26/2025"
+  date: "1/24/2025"
   reader-mode: true
+  search: true
+  repo-url: https://github.com/poromechanics/math-fem/
+  site-url: https://poromechanics.github.io/spectral-fem
+  repo-actions: [edit, issue]
+  downloads: [pdf,epub]
+  sharing: [twitter, linkedin]
+  favicon: ./figures/favicon.png
+  cover-image: ./figures/cover.svg
+  cover-image-alt: Mathematics of FEM
+  twitter-card: true
+  page-navigation: true
+  page-footer: 
+    left: "Copyright 2025, Vikas Sharma" 
+    right: 
+      - icon: github
+        href: https://github.com/vickysharma0812
+      - icon: twitter
+        href: https://twitter.com/vickysharma0812
+      - icon: linkedin
+        href: https://linkedin.com/in/vickysharma0812
+  sidebar:
+      style: docked
+      background: light
   chapters:
     - index.md
     - intro.md
@@ -15,7 +38,24 @@ book:
     - dense-set.md
     - metric-spaces.md
     - vector-spaces.md
+    - normed-spaces.md
+    - banach-spaces.md
+    - ./convergence.md
+    - lp-spaces.md
+    - ./cauchy-schwarz-inequality.md
+    - ./holders-inequality.md
+    - ./friedrich-inequality.md
+    - ./minkowski-inequality.md
+    - linear-functionals.md
     - innerproduct-spaces.md
+    - ./riesz-representation-theorem.md
+    - ./lax-milgram-theorem.md
+    - sobolev-spaces.md
+    - ./h1-norm.md
+    - ./h2-norm.md
+    - young-inequality.md
+    - ./poincare-inequality.md
+    - ./trace-inequality.md
     - summary.md
     - references.md
 

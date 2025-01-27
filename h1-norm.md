@@ -1,4 +1,4 @@
-# 𑗕 H1-norm
+# H1-norm
 
 Inner product
 

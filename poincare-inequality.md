@@ -1,4 +1,4 @@
-# 𑗕 Poincare Inequality
+# Poincare Inequality
 
 In mathematics, the Poincare inequality allows us to obtain bounds on a function using bounds on its derivatives and the geometry of its domain of definition. It is very closely related result is Friedrichs inequality.
 

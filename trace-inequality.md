@@ -1,4 +1,4 @@
-# 𑗕 Trace inequality
+# Trace inequality
 
 Given a bounded domain $\Omega$ with a sufficiently smooth boundary $\Gamma$, a constant $C_{\Gamma}$ exists such that
 

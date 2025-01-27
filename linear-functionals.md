@@ -1,4 +1,4 @@
-# 𑗕 Linear functional
+# Linear functional
 
 A linear function $l(u)$ on $\mathcal{V}$ is a real valued linear function such that
 

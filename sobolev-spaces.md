@@ -1,4 +1,4 @@
-# 𑗕 Sobolev Spaces
+# Sobolev Spaces
 
 How to define the smoothness of a mathematical function? There are many criteria for smoothness.
 
@@ -8,7 +8,7 @@ How to define the smoothness of a mathematical function? There are many criteria
 
 In the twentieth century, it was observed that the space $C^1, C^2, \cdots$ was not exactly the right space to study solutions of differential equations. The Sobolev spaces are the modern replacement for these spaces in which to look for solutions of partial differential equations.
 
-In the one-dimensional case the Sobolev space $W^{k,p}(\mathbb {R} )$  for $1\leq p\leq \infty$   is defined as the subset of functions $f$ in $L^{p}(\mathbb {R} )$  such that $f$ and its weak derivatives up to order $k$ have a finite $L_p$ norm.
+In the one-dimensional case the Sobolev space $W^{k,p}(\mathbb {R} )$  for $1\leq p\leq \infty$ is defined as the subset of functions $f$ in $L^{p}(\mathbb {R} )$  such that $f$ and its weak derivatives up to order $k$ have a finite $L_p$ norm.
 
 When $p=2$, we get the Sobolev space which are also Hilbert space, that is
 

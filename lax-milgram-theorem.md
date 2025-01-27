@@ -1,4 +1,4 @@
-# 𑗕 Lax-Milgram-Theorem
+# Lax Milgram Theorem
 
 Let V be a real Hilbert space. Let $a:V\times V \rightarrow R$ be a bilinear form that is
 
